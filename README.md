@@ -51,12 +51,12 @@ The goal of this lab is to check that the student has knowledge in the following
 * Random forest classification.
 
 ### Business problem description
-``
+```
 There is need to develop machine learning model to predict is student likely to not continue studies aﬅer 4th semester based on collected data.
 Goal is to predict students not likely to continue studies. 
 This introduces constraints with model "accuracy" because most students will continue studies and there can be additional not known factors contributing to decision not to continue. 
 Goal can be achieved to find out model with minimum amount of false positives. This can make model too pessimistic and most likely to predict many false negatives.
-``
+```
 
 ### Task
 1. Read dataset file to pandas data frame.
@@ -73,12 +73,12 @@ Goal can be achieved to find out model with minimum amount of false positives. T
 12. Select most suitable classifier to solve business problem and submit your selection with rationale as answer.
 
 ### Answer
-``
+```
 "Goal can be achieved to find out model with minimum amount of false positives."
 As I have the lowest number of false-positive with Naive-Bayes (ComplementNB), I suppose it suits the best here.
 Maybe K-NN is the best though, since it has a bit bigger amount of false-positives but less false-negatives. 
 Plus, on your example dataset printouts example K-NN was better than Naive-Bayes.
-``
+```
 
 ## LAB 4 - Clustering trials and multidimensional features visualisation
 ### The purpose of this assignment
@@ -89,14 +89,14 @@ The goal of this lab is to check that the student has knowledge in the following
 * Multidimensional features visualisation.
 
 ### Business problem description
-``
+```
 HELP International have been able to raise around $10 million. 
 Now the CEO of the NGO needs to decide how to use this money strategically and effectively. 
 So, CEO has to make decision to choose the countries that are in the direst need of aid. 
 Hence, your Job as a Data scientist is to categorise the countries using some socio-economic and 
 health factors that determine the overall development of the country. 
 Then you need to suggest the countries which the CEO needs to focus on the most.
-``
+```
 
 ### Task
 1. Read dataset file to pandas data frame.
@@ -113,11 +113,11 @@ https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data
 
 ### Answer
 Results
-``
+```
          cluster  child_mort   exports         gdpp   health   imports       income  inflation  life_expec  total_fer 
          0          5.000000 58.738889 42494.444444 8.807778 51.491667 45672.222222   2.671250   80.127778   1.752778
          1         92.961702 29.151277  1922.382979 6.388511 42.323404  3942.404255  12.019681   59.187234   5.008085
          2         21.927381 40.243917  6486.452381 6.200952 47.473404 12305.595238   7.600905   72.814286   2.307500
 
 From the table above, we can see that the most affected countries are from the cluster 1.
-``
+```
