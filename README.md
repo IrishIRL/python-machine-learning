@@ -52,10 +52,13 @@ The goal of this lab is to check that the student has knowledge in the following
 
 ### Business problem description
 ```
-There is need to develop machine learning model to predict is student likely to not continue studies aﬅer 4th semester based on collected data.
+There is need to develop machine learning model to predict is student likely to not continue studies
+aﬅer 4th semester based on collected data.
 Goal is to predict students not likely to continue studies. 
-This introduces constraints with model "accuracy" because most students will continue studies and there can be additional not known factors contributing to decision not to continue. 
-Goal can be achieved to find out model with minimum amount of false positives. This can make model too pessimistic and most likely to predict many false negatives.
+This introduces constraints with model "accuracy" because most students will continue studies and 
+there can be additional not known factors contributing to decision not to continue. 
+Goal can be achieved to find out model with minimum amount of false positives. 
+This can make model too pessimistic and most likely to predict many false negatives.
 ```
 
 ### Task
@@ -75,8 +78,10 @@ Goal can be achieved to find out model with minimum amount of false positives. T
 ### Answer
 ```
 "Goal can be achieved to find out model with minimum amount of false positives."
-As I have the lowest number of false-positive with Naive-Bayes (ComplementNB), I suppose it suits the best here.
-Maybe K-NN is the best though, since it has a bit bigger amount of false-positives but less false-negatives. 
+As I have the lowest number of false-positive with Naive-Bayes (ComplementNB), 
+I suppose it suits the best here.
+Maybe K-NN is the best though, since it has a bit bigger amount of false-positives 
+but less false-negatives. 
 Plus, on your example dataset printouts example K-NN was better than Naive-Bayes.
 ```
 
